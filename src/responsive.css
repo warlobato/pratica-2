@@ -1,0 +1,43 @@
+@media(max-width: 1200px) {
+    main {
+        height: 100%;
+    }
+
+    .card {
+        width: 400px;
+        height: 900px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .container {
+        height: 100%;
+        text-align: center;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+    }
+
+    img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0;
+    }
+
+    .opacity {
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0;
+    }
+
+    .attribution {
+        width: 400px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+}

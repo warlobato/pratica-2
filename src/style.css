@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+/* card */
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    width: 1040px;
+    height: 440px;
+    border-radius: 10px;
+}
+
+.card .container {
+    margin-inline: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card .container .principal {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .container .principal h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#insights {
+    color: hsl(277, 64%, 61%);
+}
+
+.card .container .principal p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+}
+
+.card .container .numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .container .numbers p {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.card .container .numbers span {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.card .container .numbers p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+/* image */
+
+img {
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card .image {
+    position: relative;
+    border-radius: 10px;
+}
+
+.image .opacity {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(277, 64%, 61%, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
